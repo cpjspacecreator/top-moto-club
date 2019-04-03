@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 4px;
+    line-height: 1.75;
+    box-sizing: 20px;
+}
+
+header {
+    font-family: Verdana, Geneva, sans-serif;
+    /*padding-bottom: 400px;*/
+    background-color: black;
+    background-image: url(../images/action-bike-biker-258092.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+nav {
+   background: rgba(255, 255, 255, 1); 
+   height: 3vh;
+   position: fixed;
+   /*top:  ;*/
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 40%;
+    width: 100vw;
+}
+
+nav ul a {
+    padding: 20px 15px 7px 15px;
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 20px;
+}
+
+nav ul a:visited {
+    
+}
+
+nav ul a:hover {
+    border-bottom: 1px solid green;
+}
+
+.fas {
+    padding-right: .3rem;
+}
+
+header {
+    /*padding: 28%;*/
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+   text-align: left;
+   padding-top: 200px;
+   padding-left: 20px;
+   font-size: 25px
+}
+
+h2 {
+   font-family: 'Courgette', cursive;
+   text-align: center;
+   color: rgb();
+ 
+ 
+}
+p {
+     /*background-color: rgba(255, 255, 255,0.6); */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+html {
+    height: 100vh;
+}
+
+/* div{
+    width: 200px;
+    height: 200px;
+    background: #FF0000;
+    border-radius: 50%;
+} */
+
+}
