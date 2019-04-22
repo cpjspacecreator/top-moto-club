@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0px;
+    line-height: 1.75;
+    box-sizing: 20px;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*header goes here*/
+
+header {
+    font-family: Verdana, Geneva, sans-serif;
+    /*padding-bottom: 400px;*/
+    background-color: #000;
+    background-image: url(../images/action-bike-biker-258092.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+nav {
+   background: rgba(220,220,220, 1); 
+   height: 6vh;
+   position: fixed;
+    
+   /*top:  ;*/
+}
+
+nav ul {
+    
+    font-family: 'Monoton', cursive;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 40%;
+    width: 100vw;
+    padding-top: 8px;
+}
+
+nav ul a {
+    padding: 20px 15px 7px 15px;
+}
+
+nav ul a:link {
+    text-decoration: none;
+    color: #000080;
+    font-size: 20px;
+}
+
+nav ul a:visited {
+    
+}
+
+nav ul a:hover {
+    border-bottom: 1px solid #006400;
+}
+
+.navlink {
+    
+    background-color: rgba(220,220,220, 1);
+}
+.fas {
+    padding-right: .3rem;
+}
+
+header {
+    /*padding: 28%;*/
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+   text-align: left;
+   padding-top: 200px;
+   padding-left: 20px;
+   font-size: 25px
+}
+
+h2 {
+   font-family: 'Courgette', cursive;
+   text-align: center;
+   color: rgb();
+    font-size: 50px;
+    padding: 30px;
+ text-decoration: line-through;
+
+ 
+}
+
+h3 {
+       text-align: center;
+   color: rgb();
+    font-family: 'Bangers';
+    font-size: 60px;
+    color: #b22222;
+}
+
+p {
+     /*background-color: rgba(255, 255, 255,0.6); */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right:60px;
+}
+
+html {
+    height: 100vh;
+}
+
+}
+ div {
+     
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+/*     previously desired sizes*/
+     /*
+    width: 200px;
+    height: 200px;
+    background: #FF0000;
+    border-radius: 50%;
+*/
+} 
+
+.brands {
+    
+    display: flex;
+}
+
+.item1 {
+    order: 1;
+}
+
+.item2 {
+    order: 2;
+}
+
+.scts {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.p2 {
+    
+    font-size: 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.p3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    padding: 15px;
+}
+
+a {
+    
+color: #000080;
+    text-decoration: none;
+    background-color: rgba(220,220,220, 1);
+    padding: 2px;
+}
+
+
+/*end of stylesheet*/
