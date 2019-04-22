@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav ul a {
-    padding: 20px 15px 7px 15px;
+/*    padding: 20px 15px 7px 15px;*/
 }
 
 nav ul a:link {
@@ -62,7 +62,7 @@ nav ul a:hover {
 
 .navlink {
     
-    background-color: rgba(220,220,220, 1);
+/*    background-color: rgba(220,220,220, 1);*/
 }
 .fas {
     padding-right: .3rem;
@@ -107,6 +107,7 @@ p {
     font-size: 16px;
     padding-left: 60px;
     padding-right:60px;
+   
 }
 
 html {
@@ -175,5 +176,10 @@ color: #000080;
     padding: 2px;
 }
 
-
+/*media queries*/
+@media only screen and (max-width: 600px){
+    header {
+        background-image: url(../images/black-blur-close-up-345121.jpg)
+}
+}
 /*end of stylesheet*/
